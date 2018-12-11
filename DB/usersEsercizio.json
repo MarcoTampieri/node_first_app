@@ -1,0 +1,13 @@
+[{
+    "pantheon": "Romano",
+    "dei": ["Giove", "Nettuno"]
+}, {
+    "pantheon": "Egizio",
+    "dei": ["Ra", "Iside", "Seth", "Pancetta"]
+}, {
+    "pantheon": "Scandinavo",
+    "dei": ["Odino", "Thor", "Loki"]
+}, {
+    "pantheon": "Greci",
+    "dei": ["Zeus", "Poseidone", "Ade"]
+}]
