@@ -14,10 +14,12 @@ module.exports = app => {
 
         let pantheon = req.body.pantheon;
         let dei = req.body.dei;
+        let note = req.body.note
         jsonfile.readFile(file_path, function (err, content) {
             content.push({
                 pantheon: pantheon,
-                dei: dei
+                dei: dei,
+                note: note,
             });
 
             console.log("Aggiunti i " + pantheon + " ai pantheon.")

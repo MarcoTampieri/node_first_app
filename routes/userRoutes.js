@@ -19,6 +19,7 @@ module.exports = app => {
 
     let email = req.body.email
     let username = req.body.username
+    
     jsonfile.readFile(file_path, function (err, content) {
 
       content.push({

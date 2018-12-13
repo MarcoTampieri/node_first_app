@@ -1,1 +1,13 @@
-[{"email":"example@example.com","username":"mzldcfkze"},{"email":"example2@domain.com","username":"Bar"},{"email":"bob@obo.com","username":"not Bob"}]
+[{
+    "email": "example@example.com",
+    "username": "mzldcfkze"
+}, {
+    "email": "example2@domain.com",
+    "username": "Bar"
+}, {
+    "email": "bob@obo.com",
+    "username": "not Bob"
+}, {
+    "email": "example2@hello.com",
+    "username": "world"
+}]
