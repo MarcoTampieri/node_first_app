@@ -61,13 +61,15 @@ module.exports = app => {
     let user;
     let username = req.body.username;
     let email = req.query.email;
+    let email2 = req.body.email;
     console.log(email)
     jsonfile.readFile(file_path, function(err, content) {
       for (var i = content.length - 1; i >= 0; i--) {
         if (content[i].email === email) {  
           console.log("updated user " + email + " has now username : " + username);  
           user = content[i];
-          user.username = username;  
+          user.username = username; 
+          user.email2 = email;
           
         }
       }

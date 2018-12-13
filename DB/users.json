@@ -9,5 +9,6 @@
     "username": "not Bob"
 }, {
     "email": "example2@hello.com",
-    "username": "world"
+    "username": "testing",
+    "email2": "example2@hello.com"
 }]
