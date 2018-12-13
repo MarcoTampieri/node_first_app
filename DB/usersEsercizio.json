@@ -1,13 +1,21 @@
 [{
     "pantheon": "Romano",
-    "dei": ["Giove", "Nettuno"]
+    "note": "Il Pantheon Romano é in origine quello greco, cui sono stati cambiati i nomi delle varie divinità",
+    "dei": ["Giove", "Nettuno", "Plutone"]
 }, {
     "pantheon": "Egizio",
-    "dei": ["Ra", "Iside", "Seth", "Pancetta"]
+    "dei": ["Ra", "Iside", "Seth"],
+    "note": "Secondo alcuni la storia di Cristo nella bibbia comporta numerosi paralleli con il dio Horus"
 }, {
     "pantheon": "Scandinavo",
-    "dei": ["Odino", "Thor", "Loki"]
+    "dei": ["Odino", "Thor", "Loki"],
+    "note": "La mitologia scandinava è l'unica che aveva profetizzato la caduta delle sue difinità"
 }, {
-    "pantheon": "Greci",
-    "dei": ["Zeus", "Poseidone", "Ade"]
+    "pantheon": "Greco",
+    "dei": ["Zeus", "Poseidone", "Ade"],
+    "note": "La mitologia e il pantheon Greco sono stati adottati successivamente dalla cultura romana"
+}, {
+    "pantheon": "Primordiale",
+    "dei": ["Gaia", "Urano", "Crono"],
+    "note": "Insolitamente in entrambe le mitologie (greca e romana) i nomi delle divinità primordiali non sono cambiati radicalmente"
 }]
